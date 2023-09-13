@@ -42,45 +42,53 @@ function countdown() {
 }
 
 
-const questions = [
-  {
-    question: "Commonly used data type DO NOT include:",
-    choices: [
-      { answer: "1.booleans", correct: false },
-      { answer: "2.alerts", correct: true },
-      { answer: "3.numbers", correct: false },
-      { answer: "4.strings", correct: false }
-    ],
-  },
-  {
-    question: "the condition in an if / else statementis enclosed within ____:",
-    choices: [
-      { answer: "1.quotes", correct: false },
-      { answer: "2.curly brackets", correct: false },
-      { answer: "3.parentheses", correct: true },
-      { answer: "4.square brackets", correct: false }
-    ],
-  },
-  {
-    question: "Arrays in JavaScript can be used to store:",
-    choices: [
-      { answer: " 1.numbers and strings", correct: false },
-      { answer: "2.other arrays", correct: false },
-      { answer: "3.booleans", correct: false },
-      { answer: "4.all of the above", correct: true }
-    ],
-  },
-  {
-    question: "String values must be enclosed within ____ when being assigned to variable:",
-    choices: [
-      { answer: "1.commas", correct: false },
-      { answer: "2.curly brackets", correct: true },
-      { answer: "3.quotes", correct: false },
-      { answer: "4.parentheses", correct: false }
-    ],
-  },
- 
-]
+const questions =[
+    {
+      question: "What is the result of 2 + 2 in JavaScript?",
+      choices: [
+        { answer: "4", correct: true },
+        { answer: "6", correct: false },
+        { answer: "8", correct: false },
+        { answer: "10", correct: false }
+      ],
+    },
+    {
+      question: "What keyword is used to declare a variable in JavaScript?",
+      choices: [
+        { answer: "var", correct: true },
+        { answer: "let", correct: false },
+        { answer: "const", correct: false },
+        { answer: "int", correct: false }
+      ],
+    },
+    {
+      question: "Which programming language is used for creating web pages?",
+      choices: [
+        { answer: "Java", correct: false },
+        { answer: "Python", correct: false },
+        { answer: "HTML", correct: true },
+        { answer: "C++", correct: false }
+      ],
+    },
+    {
+      question: "What is the capital of France?",
+      choices: [
+        { answer: "Berlin", correct: false },
+        { answer: "Madrid", correct: false },
+        { answer: "Rome", correct: false },
+        { answer: "Paris", correct: true }
+      ],
+    },
+    {
+      question: "Which symbol is used for single-line comments in JavaScript?",
+      choices: [
+        { answer: "//", correct: true },
+        { answer: "/*", correct: false },
+        { answer: "--", correct: false },
+        { answer: "#", correct: false }
+      ],
+    }
+  ];
 
 
 
